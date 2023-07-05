@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.content{
+    flex: 1.6;
+    height: 100vh;
+    background-image: url(./back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-weight: 900;
+    color: aliceblue;
+
+}
+.intro{
+    position: relative;
+    top: 50px;
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 50px;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+    opacity: 50%;
+    border: 2px,solid,gold;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+}
+.title{
+    position: relative;
+    top: -5px;
+}
+.signup{
+    flex: 2;
+    height: 100vh;
+    background-color: #000000;
+    color: aliceblue;
+    
+}
+.intro2{
+    margin: 20px;
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+}
+
+.container{
+    margin: 20px;
+    height: 300px;
+    width: 500px;
+}
+
+input{
+    background-color: rgb(2, 2, 2);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+    opacity: 50%;
+    color: aliceblue;
+    width: 200px;
+    height: 25px;
+    font-weight: 500;
+    
+    
+    
+}
+form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    
+}
+
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
+
+.submit{
+    background-color: rgb(2, 2, 2);
+    color: #e6007e;
+    padding: 10px;
+    border-color:  #e6007e;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.submit:hover{
+    scale: 1.2;
+    background-color: rgb(143, 80, 80);
+}
+.otro{
+    margin: 20px;
+    position: relative;
+    top: 70px;
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+}
